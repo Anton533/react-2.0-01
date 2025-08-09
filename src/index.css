@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #ffffffde;
-  background-color: #242424;
+  color: #242424;
+  background-color: #ffffffde;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -87,4 +87,8 @@ img {
   > *:last-child {
     margin-top: auto;
   }
+}
+
+ul {
+  list-style: none;
 }

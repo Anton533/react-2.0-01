@@ -1,18 +1,22 @@
 .card {
-  max-width: 260px;
+  max-width: 160px;
   color: #242424;
   background-color: #fafafa;
-  border: 1px solid #242424;
+  border: 2px solid #242424;
   border-radius: 5px;
   margin: 5px;
   overflow: hidden;
-  margin: 0 auto;
+  height: 100%;
+
+  align-self: center;
+  justify-self: center;
 }
 .top {
   padding: 10px;
 }
 .img {
-  width: 100%;
+  width: 75%;
+  margin: 10px auto;
 }
 .data {
   padding: 10px;
@@ -21,7 +25,6 @@
 .dataItem {
   margin-bottom: 5px;
 }
-
 .bottom {
   list-style: none;
   display: flex;
@@ -36,4 +39,10 @@
 }
 .bottomItem:not(:last-child) {
   border-right: 1px solid #242424;
+}
+.online {
+  color: #15ab15;
+}
+.offline {
+  color: tomato;
 }
